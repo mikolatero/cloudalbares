@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\'on}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{\IeC {\textquestiondown }Que es un sistema de virtualizaci\'on?}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{\IeC {\textquestiondown }Que es el cloud?}{10}{0}{1}
+\beamer@subsectionintoc {1}{3}{Ventajas energeticas de virtalizacion contra fisico}{17}{0}{1}
+\beamer@subsectionintoc {1}{4}{Diferentes soluciones de virtualizacion}{24}{0}{1}
+\beamer@subsectionintoc {1}{5}{PARA PRUEBAS}{35}{0}{1}
+\beamer@sectionintoc {2}{Diferentes soluciones de virtualizacion}{36}{0}{2}
+\beamer@subsectionintoc {2}{1}{Listado de soluciones}{36}{0}{2}
+\beamer@subsectionintoc {2}{2}{OpenNebula}{40}{0}{2}
+\beamer@subsectionintoc {2}{3}{OpenStack}{42}{0}{2}
+\beamer@subsectionintoc {2}{4}{RedHat Enterprise Virtualization}{44}{0}{2}
+\beamer@subsectionintoc {2}{5}{Microsoft Windows Server 2012}{46}{0}{2}
+\beamer@sectionintoc {3}{Enunciado del problema}{48}{0}{3}
+\beamer@sectionintoc {4}{Referencias}{52}{0}{4}
