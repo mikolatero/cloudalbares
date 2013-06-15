@@ -17,7 +17,7 @@
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
 
 \begin{document}
-\title[Virtualización en la educacion \ldots ]{Plataformas de virtualizacion para equipos en centros educativos}  
+\title[1Virtualización en la educacion \ldots ]{Plataformas de virtualizacion para equipos en centros educativos}  
 \author{Francisco José Marin Cano \\ José Maria Alcaraz Marin}
 \institute[D.S.Y.C]{%
   Departamento Técnico de Sistemas y Comunicaciones\\
