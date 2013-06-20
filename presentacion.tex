@@ -4,13 +4,6 @@
 
 \usetheme{Warsaw}
 
-%\documentclass[serif,9pt]{beamer}
-%\usepackage[T1]{fontenc} % Needed for Type1 Concrete
-%\usepackage[charter]{mathdesign}
-
-
-%\usepackage[pdftex]{graphicx}
-
 \usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
 
@@ -24,8 +17,6 @@
   Cieza (Murcia)}
 \date{Copyleft \copyright{} 2013. Reproducción permitida bajo los \\
       términos de la licencia de documentación libre GNU.}
-
-%\logo{\includegraphics[scale=0.4]{albares}} 
 
 
 \begin{frame}
@@ -44,27 +35,20 @@
 
 \begin{itemize}
 
-\item Son un conjunto de ecuaciones en derivadas parciales no lineales  que describen el movimiento de un fluido (liquidos y gases). \pause
+\item La creación -a través de software- de una versión virtual de algún recurso tecnológico, como puede ser una plataforma de hardware, un sistema operativo, un dispositivo de almacenamiento u otros recursos de red \pause
 \bigskip
 
-%\item Las ecuaciones de Navier-Stokes reciben su nombre de Claude-Louis Navier y George Gabriel Stokes. \pause
-%\bigskip
+\item Una máquina virtual simula una plataforma de hardware autónoma incluyendo un sistema operativo completo que se ejecuta como si estuviera instalado. Típicamente varias máquinas virtuales operan en una misma maquina fisica. Para que el sistema operativo ?guest? funcione correctamente, la maquina fisica debe ser lo suficientemente potente para realizar esta simulacion. \pause
+\bigskip
 
-\item Modelan una gran variedad de fenómenos físicos complejos: \medskip
+\item Existen diferentes proveedores de software para virtualizar: \medskip
 \begin{itemize}
- \item clima \pause \medskip
- \item corrientes oceánicas  \pause \medskip
- \item aerodinámica \pause \medskip
- \item movimiento de estrellas 
-\end{itemize} \pause
-\bigskip
-
-\item No se conoce una fórmula que resuelva las ecuaciones (solución analítica) excepto en algunos tipos de flujos concretos.
-\pause
-\bigskip
-
-\item Es necesario recurrir al análisis numérico para determinar soluciones aproximadas.
-\bigskip
+ \item VMware  \medskip
+ \item Virtualbox   \medskip
+ \item Parallels \medskip
+ \item Xen \medskip
+ \item KVM  \medskip
+\end{itemize}
 
 \end{itemize}
 
@@ -77,27 +61,26 @@
 
 \begin{itemize}
 
-\item Son un conjunto de ecuaciones en derivadas parciales no lineales  que describen el movimiento de un fluido (liquidos y gases). \pause
+\item Cloud Computing permite ofrecer de manera conveniente y a demanda, recursos y servicios altamente disponibles tanto desde la red privada como la red pública.    \pause
 \bigskip
 
-%\item Las ecuaciones de Navier-Stokes reciben su nombre de Claude-Louis Navier y George Gabriel Stokes. \pause
-%\bigskip
-
-\item Modelan una gran variedad de fenómenos físicos complejos: \medskip
-\begin{itemize}
- \item clima \pause \medskip
- \item corrientes oceánicas  \pause \medskip
- \item aerodinámica \pause \medskip
- \item movimiento de estrellas 
-\end{itemize} \pause
-\bigskip
-
-\item No se conoce una fórmula que resuelva las ecuaciones (solución analítica) excepto en algunos tipos de flujos concretos.
+\item Permite a los usuarios acceder a un catálogo estándar de servicios, respondiendo a las necesidades del negocio de forma flexible y permitiendo adaptarse a las demandas de los usuarios en el tiempo.
 \pause
 \bigskip
 
-\item Es necesario recurrir al análisis numérico para determinar soluciones aproximadas.
+\item 
+Su principal característica es el uso de recursos compartidos y la independencia de la infraestructura, lo cual permite al usuario disponer siempre de los mismos servicios independientemente donde este se encuentre ubicado.
+\pause
 \bigskip
+
+\item Las características de Cloud Computing son:
+
+\begin{itemize}
+ \item Servicio a demanda \medskip
+ \item Pool de recursos independiente de la ubicación  \medskip
+ \item Elasticidad y flexibilidad   \medskip
+ \item Servicio medible 
+\end{itemize}
 
 \end{itemize}
 
@@ -105,70 +88,75 @@
 
 
 
-\subsection{Ventajas energeticas de virtalizacion contra fisico}
+\subsection{Tipos de Cloud}
 
-\begin{frame}\frametitle{Ventajas energeticas de virtalizacion contra fisico} 
+\begin{frame}\frametitle{Tipos de Cloud}
 
-\begin{itemize}
 
-\item Son un conjunto de ecuaciones en derivadas parciales no lineales  que describen el movimiento de un fluido (liquidos y gases). \pause
-\bigskip
 
-%\item Las ecuaciones de Navier-Stokes reciben su nombre de Claude-Louis Navier y George Gabriel Stokes. \pause
-%\bigskip
-
-\item Modelan una gran variedad de fenómenos físicos complejos: \medskip
-\begin{itemize}
- \item clima \pause \medskip
- \item corrientes oceánicas  \pause \medskip
- \item aerodinámica \pause \medskip
- \item movimiento de estrellas 
-\end{itemize} \pause
-\bigskip
-
-\item No se conoce una fórmula que resuelva las ecuaciones (solución analítica) excepto en algunos tipos de flujos concretos.
+\begin{block}{Privado}
+Infraestructura on-demand implementada y administrada exclusivamente por la organización, que controla que servicios ofrecer .  Una Cloud Privada es una la mejor opción para las compañías que necesitan una alta protección de datos y asegurar el acceso continuo a los servicios sin la dependencia del acceso a Internet. 
+\end{block}
 \pause
 \bigskip
+\begin{block}{Publico}
+Infraestructura on-demand implementada de manera que puede ser accedida de manera pública y desde internet.     
+	\begin{itemize}
+		\item Generalmente ofrecida por empresas de comunicación y datacenter.
+	    \item Servicios accedidos de manera estándar desde internet.
+	\end{itemize}
+\end{block}
 
-\item Es necesario recurrir al análisis numérico para determinar soluciones aproximadas.
-\bigskip
+
+\end{frame}
+
+\begin{frame}\frametitle{Tipos de Cloud}
+
+\begin{block}{Hibrido}
+Se combinan los modelos de nubes públicas y privadas, donde el cliente es propietario de una parte de la infraestructura, mientras comparte otra.  Este modelo de Cloud es el que en teoría sería el más atractivo para las organizaciones y el que más se desarrollara con el tiempo.  Una Cloud hibrida trabaja bajo el concepto de federación y portabilidad.
+\end{block}
+
+
+\end{frame}
+
+
+
+
+
+
+\subsection{Ventajas del Cloud}
+
+\begin{frame}\frametitle{Ventajas economicas del Cloud} 
+
+\begin{itemize}
+
+\item Reducción de Costos \pause \bigskip
+\item Infraestructura a medida \pause \bigskip
+\item Mayor eficiencia \pause \bigskip
+\item Costo basado en uso \pause \bigskip
+\item Calidad de Servicio
+
 
 \end{itemize}
 
 \end{frame}
+
+\begin{frame}\frametitle{Ventajas tecnicas del Cloud} 
+
+\begin{itemize}
+
+\item Reducción de Costos 
+\item 
+
+
+\end{itemize}
+
+\end{frame}
+
 
 
 \subsection{Diferentes soluciones de virtualizacion}
 
-\begin{frame}\frametitle{Diferentes soluciones de virtualizacion} 
-
-\begin{itemize}
-
-\item Son un conjunto de ecuaciones en derivadas parciales no lineales  que describen el movimiento de un fluido (liquidos y gases). \pause
-\bigskip
-
-%\item Las ecuaciones de Navier-Stokes reciben su nombre de Claude-Louis Navier y George Gabriel Stokes. \pause
-%\bigskip
-
-\item Modelan una gran variedad de fenómenos físicos complejos: \medskip
-\begin{itemize}
- \item clima \pause \medskip
- \item corrientes oceánicas  \pause \medskip
- \item aerodinámica \pause \medskip
- \item movimiento de estrellas 
-\end{itemize} \pause
-\bigskip
-
-\item No se conoce una fórmula que resuelva las ecuaciones (solución analítica) excepto en algunos tipos de flujos concretos.
-\pause
-\bigskip
-
-\item Es necesario recurrir al análisis numérico para determinar soluciones aproximadas.
-\bigskip
-
-\end{itemize}
-
-\end{frame}
 
 \begin{frame}
 \frametitle{Diferentes soluciones de virtualizacion} 
@@ -176,7 +164,7 @@
 \begin{block}{OpenNebula}
 \begin{columns}
 \column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{Danielbernoulli} 
+\includegraphics[width=\textwidth]{opennebulalogo} 
 \column{.8\textwidth}
 Durante la primera mitad del siglo XVIII el matemático suizo Daniel Bernoulli muestra cómo adaptar los
 métodos del cálculo para analizar cómo fluyen los fluidos.
@@ -189,7 +177,7 @@ métodos del cálculo para analizar cómo fluyen los fluidos.
 \begin{block}{OpenStack}
 \begin{columns}
 \column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{Euler} 
+\includegraphics[width=\textwidth]{openstacklogoe} 
 \column{.8\textwidth}
 Basado en el trabajo de Bernoulli, Leonhard Euler formula un conjunto de ecuaciones cuyas soluciones decriben
 precisamente el movimiento de un fluido hipotético no viscoso.
@@ -205,7 +193,7 @@ precisamente el movimiento de un fluido hipotético no viscoso.
 \begin{block}{Red Hat Enterprise Virtualization}
 \begin{columns}
 \column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{Navier} 
+\includegraphics[width=\textwidth]{rhevlogo} 
 \column{.8\textwidth}
 En 1822 Navier modifica las ecuaciones de Euler para abarcar el caso más realista de un fluido con viscosidad.
 Aunque su razonamiento matemático fue incorrecto, obtuvo las ecuaciones correctas.
@@ -218,7 +206,7 @@ Aunque su razonamiento matemático fue incorrecto, obtuvo las ecuaciones correcta
 \begin{block}{Microsoft Windows Server 2012}
 \begin{columns}
 \column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{Stokes} 
+\includegraphics[width=\textwidth]{wserverlogo} 
 \column{.8\textwidth}
 En 1842 Stokes deduce por medio de un razonamiento correcto las ecuaciones que 20  años antes Navier había obtenido
 y extendió la teoría. 
@@ -226,6 +214,8 @@ y extendió la teoría.
 \end{block}
 
 \end{frame}
+
+
 
 \subsection{PARA PRUEBAS}
 
@@ -245,19 +235,13 @@ bloc text
 \medskip
 \textbf{Navier-Stokes Equation}\\ 
 \medskip
-Waves follow our boat as we meander across the lake, and turbulent air
-currents follow our flight in a modern jet. Mathematicians and physicists
-believe that an explanation for and the prediction of both the breeze and
-the turbulence can be found through an understanding of solutions to the
-Navier-Stokes equations. Although these equations were written down
-in the 19th Century, our understanding of them remains minimal. The
-challenge is to make substantial progress toward a mathematical theory
-which will unlock the secrets hidden in the Navier-Stokes equations.\\ 
+block text \\
 \medskip
 \href{http://www.claymath.org/millennium/Navier-Stokes\_Equations/}{http://www.claymath.org/millennium/Navier-Stokes\_Equations/}
 \end{exampleblock}
 
 \end{frame}
+
 
 
 
@@ -360,144 +344,6 @@ de manera infinita en todas las direcciones.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Enunciado del problema} \label{enunciado}
-
-\begin{frame}\frametitle{Enunciado del problema}
-
-Las ecuaciones de Euler y Navier-Stokes describen el movimiento de un fluido en $\mathbb{R}^n\ (n=2,3)$. Las incógnitas del problema vienen dadas por el vector de velocidades $u(x,t)={(u_i(x,t))}_{1\leq i\leq n}\in \mathbb{R}^n$ y la presión $p(x,t)\in \mathbb{R}$, definidas para toda posición $x\in \mathbb{R}^n$ y todo tiempo $t\geq 0$.
-
-\bigskip
-
-Las ecuaciones de Navier-Stokes son
-\begin{align}
-\frac{\partial u_i}{\partial t} + \sum_{j=1}^n u_j \frac{\partial u_i}{\partial x_j} = \nu \Delta u_i - \frac{\partial p}{\partial x_i} + f_i(x,t) & \qquad (x\in \mathbb{R}^n,\ t\geq 0), \label{n-s} \\
-\mbox{div}\ u = \sum_{i=1}^n \frac{\partial u_i}{\partial x_i} = 0 & \qquad (x\in \mathbb{R}^n,\ t\geq 0) \label{inc}
-\end{align}
-
-con condiciones iniciales
-
-\begin{equation}\label{ci}
-u(x,0) = u^0(x) \qquad  (x\in \mathbb{R}^n).
-\end{equation}
-
-\medskip
-
-
-\end{frame}
-
-\begin{frame}\frametitle{Enunciado del problema}
-Se asume que $u^0(x)$ es un campo de clase $C^{\infty}$ y de divergencia nula en $\mathbb{R}^n$, $f_i(x,t)$ son las componentes de la fuerza externa aplicada (e.g. la gravedad), $\nu$ es el coeficiente de viscocidad y $\displaystyle \Delta = \sum_{i=1}^n \frac{\partial^2}{\partial x_i^2}$ es el laplaciano en las variables espaciales. Las ecuaciones de Euler son las ecuaciones \eqref{n-s}, \eqref{inc}, \eqref{ci} con $\nu = 0$.
-
-\bigskip
-
-Se espera que las soluciones satisfagan ciertas propiedades de regularidad que las hagan lo suficientemente ``suaves'' para que sean soluciones físicamente plausibles y por tanto se establecen las siguientes restricciones sobre las condiciones iniciales y las fuerzas aplicadas:
-
-\begin{equation}\label{decaimiento}
-\vert \partial_x^{\alpha} u^0(x) \vert < C_{\alpha K}\left(1 + \vert x\vert \right)^{-K} 
-\end{equation}
-
-\bigskip
-
-en $\mathbb{R}^n$ para todo $\alpha$ y $K$,
-
-\end{frame}
-
-\begin{frame}\frametitle{Enunciado del problema}
-y también
-
-\medskip
-
-\begin{equation}\label{decaimientof}
-\vert \partial_x^{\alpha}\partial_t^{m} f(x,t)\vert < C_{\alpha m K}\left(1 + \vert x\vert + t \right)^{-K} 
-\end{equation}
-
-\bigskip
-
-en $\mathbb{R}^n\times [0,\infty)$ para todo $\alpha, m, K$. Una solución de \eqref{n-s}, \eqref{inc}, \eqref{ci} es físicamente plausible sólo si se satisfacen las propiedades de regularidad
-
-\medskip
-
-\begin{equation}\label{suavidad}
-p, u \in C^{\infty}\left(\mathbb{R}^n \times [0,\infty)\right)
-\end{equation}
-
-\medskip
-y 
-\medskip
-
-\begin{equation}\label{energia}
-\int_{\mathbb{R}^n} \vert u(x,t) \vert^2 \, dx < C \qquad \mbox{para todo } \ t\geq 0 
-\end{equation}
-
-\end{frame}
-
-\begin{frame}\frametitle{Enunciado del problema}
-El problema fundamental consiste en determinar si las ecuaciones de Navier-Stokes admiten o no soluciones suaves, físicamente plausibles:
-
-\smallskip
-
-\begin{alertblock}{Problema de existencia y regularidad en $\mathbb{R}^3$}
-Considere $\nu>0$ y $n=3$. Suponga que el dato inicial $u^0(x)$ es suave, de divergencia nula y satisface la propiedad de decaimiento rápido \eqref{decaimiento} y asuma $f(x,t)=0$. Entonces existen funciones suaves $p(x,t)$ y $u_i(x,t)$ definidas en $\mathbb{R}^3\times [0,\infty)$ que satisfacen \eqref{n-s}, \eqref{inc}, \eqref{ci}, \eqref{suavidad}, \eqref{energia}.
-\end{alertblock}
-
-\smallskip
-
-\begin{alertblock}{Problema de colapso de la solución en $\mathbb{R}^3$}
-Considere $\nu>0$ y $n=3$. Entonces existe un campo vectorial suave de divergencia nula $u^0(x) \in \mathbb{R}^3$ y una función suave $f(x,t)$ en $\mathbb{R}^3\times [0,\infty)$ que satisfacen \eqref{decaimiento}, \eqref{decaimientof} para las cuales \textbf{no} existen soluciones $(p,u)$ de \eqref{n-s}, \eqref{inc}, \eqref{ci}, \eqref{suavidad}, \eqref{energia}.
-
-\end{alertblock}
-
-\end{frame}
-
-
-\section{Referencias} 
-
-\begin{frame}\frametitle<presentation>{Referencias}
-
-
-\begin{thebibliography}{10}
-
-\bibitem[Devlin, 2002]{Devlin}
-A.J.~Chorin, J.E.~Marsden.
-\newblock {\em A Mathematical Introduction to Fluid Mechanics}
-\newblock Springer-Verlag, 1980.
-
-\bibitem[Devlin, 2002]{Devlin}
-K.~Devlin.
-\newblock {\em The Millenium Problems. The Seven Greatest Unsolved Mathematical Puzzles of Our Time}
-\newblock Basic Books, 2002.
-
-\bibitem{Fefferman} 
-C.~Fefferman.
-\newblock {\em Clay Mathematics Institute, Millenium Problems. Official problem description}.
-\newblock 
-\href{http://www.claymath.org/millennium/Navier-Stokes\_Equations/}{http://www.claymath.org/millennium/Navier-Stokes\_Equation}
-\bibitem[Wikipedia contributors, 200]{Wikipedia}
-Wikipedia contributors
-\newblock {\em Navier-Stokes equations}
-\newblock Wikipedia, The Free Encyclopedia., 2008.
-\newblock 
-\href{http://en.wikipedia.org/wiki/Navier-Stokes\_equations}{http://en.wikipedia.org/wiki/Navier-Stokes\_equations}
-
-\end{thebibliography}
-\end{frame}
 
 
 \end{document}
