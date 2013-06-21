@@ -7,10 +7,15 @@
 \beamer@subsectionintoc {3}{2}{\IeC {\textquestiondown }Que es el cloud?}{6}{0}{3}
 \beamer@subsectionintoc {3}{3}{Tipos de Cloud}{10}{0}{3}
 \beamer@subsectionintoc {3}{4}{Ventajas del Cloud}{13}{0}{3}
-\beamer@subsectionintoc {3}{5}{Diferentes soluciones de virtualizacion}{19}{0}{3}
-\beamer@subsectionintoc {3}{6}{PARA PRUEBAS}{23}{0}{3}
-\beamer@sectionintoc {4}{Diferentes soluciones de virtualizacion}{24}{0}{4}
-\beamer@subsectionintoc {4}{1}{OpenNebula}{24}{0}{4}
-\beamer@subsectionintoc {4}{2}{OpenStack}{26}{0}{4}
-\beamer@subsectionintoc {4}{3}{RedHat Enterprise Virtualization}{28}{0}{4}
-\beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{30}{0}{4}
+\beamer@subsectionintoc {3}{5}{Diferentes soluciones de virtualizacion}{22}{0}{3}
+\beamer@sectionintoc {4}{Diferentes soluciones de virtualizacion}{26}{0}{4}
+\beamer@subsectionintoc {4}{1}{OpenNebula}{26}{0}{4}
+\beamer@subsectionintoc {4}{2}{OpenStack}{28}{0}{4}
+\beamer@subsectionintoc {4}{3}{RedHat Enterprise Virtualization}{30}{0}{4}
+\beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{32}{0}{4}
+\beamer@sectionintoc {5}{Ejemplos de Cloud}{34}{0}{5}
+\beamer@subsectionintoc {5}{1}{oVirt}{34}{0}{5}
+\beamer@subsectionintoc {5}{2}{Amazon EC2}{35}{0}{5}
+\beamer@subsectionintoc {5}{3}{Google Drive}{36}{0}{5}
+\beamer@subsectionintoc {5}{4}{Microsoft SkyDrive}{37}{0}{5}
+\beamer@subsectionintoc {5}{5}{Dropbox}{38}{0}{5}
