@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.15)  21 JUN 2013 19:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.21)  21 JUN 2013 22:04
 entering extended mode
  %&-line parsing enabled.
 **presentacion.tex
@@ -933,6 +933,41 @@ File: wserverlogo.jpg Graphic file (type jpg)
 
 ] [38
 
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+]
+[47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
 ]
 \tf@nav=\write6
 \openout6 = `presentacion.nav'.
@@ -950,10 +985,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15510 strings out of 493848
- 288460 string characters out of 1152823
+ 15546 strings out of 493848
+ 288799 string characters out of 1152823
  364719 words of memory out of 3000000
- 18274 multiletter control sequences out of 15000+50000
+ 18276 multiletter control sequences out of 15000+50000
  7986 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  49i,20n,62p,441b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -963,9 +998,9 @@ ve/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
 onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9
 .pfb>
-Output written on presentacion.pdf (38 pages, 310711 bytes).
+Output written on presentacion.pdf (55 pages, 396769 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
+ 1061 PDF objects out of 1200 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
  307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

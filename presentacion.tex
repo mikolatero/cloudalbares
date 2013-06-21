@@ -223,11 +223,13 @@ Con la salida al publico el 4 de septiembre de 2012, fue lanzado como nuevo sist
 \subsection{OpenNebula}
 \begin{frame}\frametitle{OpenNebula} 
 \begin{itemize}
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones. 
+\item  OpenNebula ofrece la solución abierta, más adaptable y con mayor funcionalidad para construir centros de datos virtualizados y nubes privadas con Xen, KVM y VMware en entornos empresariales
 \pause \bigskip
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones.
+\item  OpenNebula es un proyecto muy activo con una amplia base de usuarios
+\pause \bigskip
+\item  Incluyen los principales centros de investigación como CERN, Fermilab y ESA; centros de supercomputación como SARA y NCHC; operadores de telecomunicaciones como RIM, China Mobile y Telefónica O2, e integradores como Logica, Engineering y KPMG. 
+\pause \bigskip
+\item C12G Labs, la compañía que gestiona el proyecto de código open-source, ofrece una distribución comercial de OpenNebula para las organizaciones que buscan una plataforma de nube certificada y con soporte a largo plazo. OpenNebula y C12G son marcas comerciales de C12G Labs
 
 \end{itemize}
 
@@ -236,11 +238,25 @@ de manera infinita en todas las direcciones.
 \subsection{OpenStack}
 \begin{frame}\frametitle{OpenStack} 
 \begin{itemize}
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones. 
+\item  En los inicios OpenStack era un cloud propio de RackSpace creando dos servicios 
+\begin{itemize}
+\item Cloud Servers
+\item Cloud Files
+\end{itemize}
 \pause \bigskip
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones.
+\item  Este software cambia a licencia libre en Abril 2010
+\pause \bigskip
+\item En este momento Interviene la NASA y Comienzan a utilizar Eucalyptus, pero lo descartan por no ser completamente libre (es open Core).
+\pause \bigskip
+\item La NASA crea el software para IaaS Nebula
+\pause \bigskip
+\item Nebula cambia a licencia libre en Mayo 2010
+\pause \bigskip
+\item Nasa y Rackspace Inician OpenStack en Junio de 2010, sus dos componentes principales son 
+\begin{itemize}
+\item OpenStack Compute (nova), deriva de Nebula
+\item OpenStack Object Store (swift), deriva de cloud Files
+\end{itemize}
 
 \end{itemize}
 
@@ -249,11 +265,23 @@ de manera infinita en todas las direcciones.
 \subsection{RedHat Enterprise Virtualization}
 \begin{frame}\frametitle{RedHat Enterprise Virtualization} 
 \begin{itemize}
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones. 
+\item  El esquema de funcionamiento es igual que en VMware y XenServer
 \pause \bigskip
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones.
+\item  Necesitando de un centro/s de almacenamiento compartido (NFS, ISCSI ó FC) para el alojamiento de nuestras VMs
+\pause \bigskip
+\item Necesita  2 o más NODOS para poder hacer migraciones
+\pause \bigskip
+\item Para la creación de las VMs, necesitaremos obligatoriamente un Almacenamiento NFS para que albergue nuestras ISOs
+\pause \bigskip
+\item Red Hat Enterprise Virtualization es también un componente esencial de Red Hat Cloud Infrastructure
+\pause \bigskip
+\item La version 3.2 de RHEV ofrece las siguientes mejoras
+\pause \bigskip
+\begin{itemize}
+\item Compatibilidad completa con Storage Live Migration
+\item Soporte para los últimos procesadores estándar de Intel y AMD
+\item Mejoras en gestión de almacenamiento, gestión de redes y energía, fencing, mejoras en la consola Spice, registro, monitorización y muchas mas...
+\end{itemize}
 
 \end{itemize}
 
@@ -262,12 +290,30 @@ de manera infinita en todas las direcciones.
 \subsection{Microsoft Windows Server 2012}
 \begin{frame}\frametitle{Microsoft Windows Server 2012} 
 \begin{itemize}
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones. 
+\item Funcionalidades Principales 
 \pause \bigskip
-\item  Las ecuaciones de Euler gobiernan el flujo de un fluido hipotético sin viscodidad que se extiende
-de manera infinita en todas las direcciones.
+\begin{itemize}
+\item La virtualización de servidores: Hyper-V proporciona herramientas para la creación y administración de un entorno de servidor virtualizado. Hyper-V Replica puede replicar una máquina virtual a partir de un lugar a otro, sin almacenamiento compartido, proporcionando una mayor recuperación de desastres y alta disponibilidad.
+\pause \bigskip
+\item Gestión del servidor: El Core Server proporciona un entorno mínimo para ejecutar funciones específicas de servidor. Estos roles son entonces más fáciles de mantener y gestionar y menos expuesto a los ataques. Estas funciones incluyen Active Directory y servicios relacionados, DHCP, DNS, servicios de archivos, Hyper-V, Servicios de impresión, Streaming Media Services y Web Server (IIS).
+\pause \bigskip
+\item Servicios integrados: Windows Server 2012 proporciona una plataforma unificada para la publicación web que integra IIS, ASP.NET y Windows Communication Foundation y también es compatible con SharePoint Services.
+\end{itemize}
+\end{itemize}
+\end{frame}
 
+\begin{frame}\frametitle{Microsoft Windows Server 2012} 
+\begin{itemize}
+\item Funcionalidades Principales 
+\pause \bigskip
+\begin{itemize}
+\item  Failover Clustering: Los administradores pueden minimizar las interrupciones de los servicios y aplicaciones mediante la creación de un entorno de servidor redundante con particiones de hardware dinámica.
+\pause \bigskip
+\item Servidor de aplicaciones: esta función de servidor proporciona un entorno integrado para implementar y ejecutar aplicaciones empresariales personalizadas creadas con Microsoft NET Framework 3.5.
+\pause \bigskip
+\item DirectAccess: Esta característica túnel seguro permite el acceso a la red desde cualquier ordenador o dispositivo. Es más rápido que las típicas conexiones VPN y ofrece fuera de la zona de acceso a los recursos compartidos de archivos, equipos en las instalaciones y otros recursos.
+
+\end{itemize}
 \end{itemize}
 
 \end{frame}

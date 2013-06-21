@@ -10,12 +10,12 @@
 \beamer@subsectionintoc {3}{5}{Diferentes soluciones de virtualizacion}{22}{0}{3}
 \beamer@sectionintoc {4}{Diferentes soluciones de virtualizacion}{26}{0}{4}
 \beamer@subsectionintoc {4}{1}{OpenNebula}{26}{0}{4}
-\beamer@subsectionintoc {4}{2}{OpenStack}{28}{0}{4}
-\beamer@subsectionintoc {4}{3}{RedHat Enterprise Virtualization}{30}{0}{4}
-\beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{32}{0}{4}
-\beamer@sectionintoc {5}{Ejemplos de Cloud}{34}{0}{5}
-\beamer@subsectionintoc {5}{1}{oVirt}{34}{0}{5}
-\beamer@subsectionintoc {5}{2}{Amazon EC2}{35}{0}{5}
-\beamer@subsectionintoc {5}{3}{Google Drive}{36}{0}{5}
-\beamer@subsectionintoc {5}{4}{Microsoft SkyDrive}{37}{0}{5}
-\beamer@subsectionintoc {5}{5}{Dropbox}{38}{0}{5}
+\beamer@subsectionintoc {4}{2}{OpenStack}{30}{0}{4}
+\beamer@subsectionintoc {4}{3}{RedHat Enterprise Virtualization}{36}{0}{4}
+\beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{43}{0}{4}
+\beamer@sectionintoc {5}{Ejemplos de Cloud}{51}{0}{5}
+\beamer@subsectionintoc {5}{1}{oVirt}{51}{0}{5}
+\beamer@subsectionintoc {5}{2}{Amazon EC2}{52}{0}{5}
+\beamer@subsectionintoc {5}{3}{Google Drive}{53}{0}{5}
+\beamer@subsectionintoc {5}{4}{Microsoft SkyDrive}{54}{0}{5}
+\beamer@subsectionintoc {5}{5}{Dropbox}{55}{0}{5}
