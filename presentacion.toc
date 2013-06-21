@@ -1,15 +1,16 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
-\beamer@sectionintoc {1}{Introducci\'on}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{\IeC {\textquestiondown }Que es un sistema de virtualizaci\'on?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{\IeC {\textquestiondown }Que es el cloud?}{6}{0}{1}
-\beamer@subsectionintoc {1}{3}{Tipos de Cloud}{10}{0}{1}
-\beamer@subsectionintoc {1}{4}{Ventajas del Cloud}{13}{0}{1}
-\beamer@subsectionintoc {1}{5}{Diferentes soluciones de virtualizacion}{19}{0}{1}
-\beamer@subsectionintoc {1}{6}{PARA PRUEBAS}{23}{0}{1}
-\beamer@sectionintoc {2}{Diferentes soluciones de virtualizacion}{24}{0}{2}
-\beamer@subsectionintoc {2}{1}{Listado de soluciones}{24}{0}{2}
-\beamer@subsectionintoc {2}{2}{OpenNebula}{28}{0}{2}
-\beamer@subsectionintoc {2}{3}{OpenStack}{30}{0}{2}
-\beamer@subsectionintoc {2}{4}{RedHat Enterprise Virtualization}{32}{0}{2}
-\beamer@subsectionintoc {2}{5}{Microsoft Windows Server 2012}{34}{0}{2}
+\beamer@sectionintoc {1}{Inicio}{1}{0}{1}
+\beamer@sectionintoc {2}{Indice}{2}{0}{2}
+\beamer@sectionintoc {3}{Introducci\'on}{3}{0}{3}
+\beamer@subsectionintoc {3}{1}{\IeC {\textquestiondown }Que es un sistema de virtualizaci\'on?}{3}{0}{3}
+\beamer@subsectionintoc {3}{2}{\IeC {\textquestiondown }Que es el cloud?}{6}{0}{3}
+\beamer@subsectionintoc {3}{3}{Tipos de Cloud}{10}{0}{3}
+\beamer@subsectionintoc {3}{4}{Ventajas del Cloud}{13}{0}{3}
+\beamer@subsectionintoc {3}{5}{Diferentes soluciones de virtualizacion}{19}{0}{3}
+\beamer@subsectionintoc {3}{6}{PARA PRUEBAS}{23}{0}{3}
+\beamer@sectionintoc {4}{Diferentes soluciones de virtualizacion}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{OpenNebula}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{OpenStack}{26}{0}{4}
+\beamer@subsectionintoc {4}{3}{RedHat Enterprise Virtualization}{28}{0}{4}
+\beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{30}{0}{4}
