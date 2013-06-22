@@ -32,387 +32,65 @@
 \end{frame} 
 
 
-\section{Introducción} 
+\section{Implantacion en IES Los Albares} 
 
-\subsection{¿Que es un sistema de virtualización?}
+\subsection{Temporalizacion}
 
-\begin{frame}\frametitle{¿Que es un sistema de virtualización?} 
-
+\begin{frame}\frametitle{Linea de Tiempo} 
 \begin{itemize}
-
-\item La creación -a través de software- de una versión virtual de algún recurso tecnológico, como puede ser una plataforma de hardware, un sistema operativo, un dispositivo de almacenamiento u otros recursos de red \pause
-\bigskip
-
-\item Una máquina virtual simula una plataforma de hardware autónoma incluyendo un sistema operativo completo que se ejecuta como si estuviera instalado. Típicamente varias máquinas virtuales operan en una misma maquina fisica. Para que el sistema operativo ?guest? funcione correctamente, la maquina fisica debe ser lo suficientemente potente para realizar esta simulacion. \pause
-\bigskip
-
-\item Existen diferentes proveedores de software para virtualizar: \medskip
-\begin{itemize}
- \item VMware  \medskip
- \item Virtualbox   \medskip
- \item Parallels \medskip
- \item Xen \medskip
- \item KVM  \medskip
-\end{itemize}
-
-\end{itemize}
-
-\end{frame}
-
-
-\subsection{¿Que es el cloud?}
-
-\begin{frame}\frametitle{¿Que es el cloud?} 
-
-\begin{itemize}
-
-\item Cloud Computing permite ofrecer de manera conveniente y a demanda, recursos y servicios altamente disponibles tanto desde la red privada como la red pública.    \pause
-\bigskip
-
-\item Permite a los usuarios acceder a un catálogo estándar de servicios, respondiendo a las necesidades del negocio de forma flexible y permitiendo adaptarse a las demandas de los usuarios en el tiempo.
-\pause
-\bigskip
 
 \item 
-Su principal característica es el uso de recursos compartidos y la independencia de la infraestructura, lo cual permite al usuario disponer siempre de los mismos servicios independientemente donde este se encuentre ubicado.
-\pause
-\bigskip
+\pause \bigskip
 
-\item Las características de Cloud Computing son:
+\item 
+\pause \bigskip
 
-\begin{itemize}
- \item Servicio a demanda \medskip
- \item Pool de recursos independiente de la ubicación  \medskip
- \item Elasticidad y flexibilidad   \medskip
- \item Servicio medible 
-\end{itemize}
+\item 
 
 \end{itemize}
 
 \end{frame}
 
 
+\subsection{Sistemas utilizados}
 
-\subsection{Tipos de Cloud}
-
-\begin{frame}\frametitle{Tipos de Cloud}
-
-
-
-\begin{block}{Privado}
-Infraestructura on-demand implementada y administrada exclusivamente por la organización, que controla que servicios ofrecer .  Una Cloud Privada es una la mejor opción para las compañías que necesitan una alta protección de datos y asegurar el acceso continuo a los servicios sin la dependencia del acceso a Internet. 
-\end{block}
-\pause
-\bigskip
-\begin{block}{Publico}
-Infraestructura on-demand implementada de manera que puede ser accedida de manera pública y desde internet.     
-	\begin{itemize}
-		\item Generalmente ofrecida por empresas de comunicación y datacenter.
-	    \item Servicios accedidos de manera estándar desde internet.
-	\end{itemize}
-\end{block}
-
-
-\end{frame}
-
-\begin{frame}\frametitle{Tipos de Cloud}
-
-\begin{block}{Hibrido}
-Se combinan los modelos de nubes públicas y privadas, donde el cliente es propietario de una parte de la infraestructura, mientras comparte otra.  Este modelo de Cloud es el que en teoría sería el más atractivo para las organizaciones y el que más se desarrollara con el tiempo.  Una Cloud hibrida trabaja bajo el concepto de federación y portabilidad.
-\end{block}
-
-
-\end{frame}
-
-
-
-
-
-
-\subsection{Ventajas del Cloud}
-
-\begin{frame}\frametitle{Ventajas economicas del Cloud} 
-
-\begin{itemize}
-
-\item Reducción de Costos \pause \bigskip
-\item Infraestructura a medida \pause \bigskip
-\item Mayor eficiencia \pause \bigskip
-\item Costo basado en uso \pause \bigskip
-\item Calidad de Servicio
-
-
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}\frametitle{Ventajas tecnicas del Cloud} 
-
-\begin{itemize}
-
-\item Automatización \pause \bigskip
-\item Escalabilidad \pause \bigskip
-\item Movilidad  \pause \bigskip
-\item Disponibilidad
-
-
-\end{itemize}
-
-\end{frame}
-
-
-
-\subsection{Diferentes soluciones de virtualizacion}
-
-
-\begin{frame}
-\frametitle{Diferentes soluciones de virtualizacion} 
-
-\begin{block}{OpenNebula}
-\begin{columns}
-\column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{opennebulalogo} 
-\column{.8\textwidth}
-Lanzado en Marzo de 2008, se presenta como software de virtualizacion para cloud publico, privado e hibrido. Fue una de las primeras plataformas para Cloud.
-\end{columns}
-\end{block}
-
-\pause
-\bigskip
-
-\begin{block}{OpenStack}
-\begin{columns}
-\column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{openstacklogoe} 
-\column{.8\textwidth}
-Su primera version llamada 'Austin' fue mostrada al publico el 21 de Octubre de 2010. Solamente incorporaba los servicios de Nova y Swift.
-\end{columns}
-\end{block}
-
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Diferentes soluciones de virtualizacion} 
-
-\begin{block}{Red Hat Enterprise Virtualization}
-\begin{columns}
-\column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{rhevlogo} 
-\column{.8\textwidth}
-Software propietario de RedHat basado totalmente en KVM. Usa SPICE como visor remoto y translado de dispositivos.
-\end{columns}
-\end{block}
-
-\pause
-\bigskip
-
-\begin{block}{Microsoft Windows Server 2012}
-\begin{columns}
-\column{.1\textwidth} \hspace{0.9cm}
-\includegraphics[width=\textwidth]{wserverlogo} 
-\column{.8\textwidth}
-Con la salida al publico el 4 de septiembre de 2012, fue lanzado como nuevo sistema operativo enfocado en su mayor parte al Cloud. Como herramienta de virtualizacion tiene Hyper-V 3.0.
-\end{columns}
-\end{block}
-
-\end{frame}
-
-
-
-
-\section{Diferentes soluciones de virtualizacion} 
-
-\subsection{OpenNebula}
 \begin{frame}\frametitle{OpenNebula} 
-\begin{itemize}
-\item  OpenNebula ofrece la solución abierta, más adaptable y con mayor funcionalidad para construir centros de datos virtualizados y nubes privadas con Xen, KVM y VMware en entornos empresariales
-\pause \bigskip
-\item  OpenNebula es un proyecto muy activo con una amplia base de usuarios
-\pause \bigskip
-\item  Incluyen los principales centros de investigación como CERN, Fermilab y ESA; centros de supercomputación como SARA y NCHC; operadores de telecomunicaciones como RIM, China Mobile y Telefónica O2, e integradores como Logica, Engineering y KPMG. 
-\pause \bigskip
-\item C12G Labs, la compañía que gestiona el proyecto de código open-source, ofrece una distribución comercial de OpenNebula para las organizaciones que buscan una plataforma de nube certificada y con soporte a largo plazo. OpenNebula y C12G son marcas comerciales de C12G Labs
 
-\end{itemize}
+
 
 \end{frame}
-
-\subsection{OpenStack}
-\begin{frame}\frametitle{OpenStack} 
-\begin{itemize}
-\item  En los inicios OpenStack era un cloud propio de RackSpace creando dos servicios 
-\begin{itemize}
-\item Cloud Servers
-\item Cloud Files
-\end{itemize}
-\pause \bigskip
-\item  Este software cambia a licencia libre en Abril 2010
-\pause \bigskip
-\item En este momento Interviene la NASA y Comienzan a utilizar Eucalyptus, pero lo descartan por no ser completamente libre (es open Core).
-\pause \bigskip
-\item La NASA crea el software para IaaS Nebula
-\pause \bigskip
-\item Nebula cambia a licencia libre en Mayo 2010
-\pause \bigskip
-\item Nasa y Rackspace Inician OpenStack en Junio de 2010, sus dos componentes principales son 
-\begin{itemize}
-\item OpenStack Compute (nova), deriva de Nebula
-\item OpenStack Object Store (swift), deriva de cloud Files
-\end{itemize}
-
-\end{itemize}
+\begin{frame}\frametitle{OpenStack}
 
 \end{frame}
-
-\subsection{RedHat Enterprise Virtualization}
-\begin{frame}\frametitle{RedHat Enterprise Virtualization} 
-\begin{itemize}
-\item  El esquema de funcionamiento es igual que en VMware y XenServer
-\pause \bigskip
-\item  Necesitando de un centro/s de almacenamiento compartido (NFS, ISCSI ó FC) para el alojamiento de nuestras VMs
-\pause \bigskip
-\item Necesita  2 o más NODOS para poder hacer migraciones
-\pause \bigskip
-\item Para la creación de las VMs, necesitaremos obligatoriamente un Almacenamiento NFS para que albergue nuestras ISOs
-\pause \bigskip
-\item Red Hat Enterprise Virtualization es también un componente esencial de Red Hat Cloud Infrastructure
-\pause \bigskip
-\item La version 3.2 de RHEV ofrece las siguientes mejoras
-\pause \bigskip
-\begin{itemize}
-\item Compatibilidad completa con Storage Live Migration
-\item Soporte para los últimos procesadores estándar de Intel y AMD
-\item Mejoras en gestión de almacenamiento, gestión de redes y energía, fencing, mejoras en la consola Spice, registro, monitorización y muchas mas...
-\end{itemize}
-
-\end{itemize}
+\begin{frame}\frametitle{StackOps}
 
 \end{frame}
-
-\subsection{Microsoft Windows Server 2012}
-\begin{frame}\frametitle{Microsoft Windows Server 2012} 
-\begin{itemize}
-\item Funcionalidades Principales 
-\pause \bigskip
-\begin{itemize}
-\item La virtualización de servidores: Hyper-V proporciona herramientas para la creación y administración de un entorno de servidor virtualizado. Hyper-V Replica puede replicar una máquina virtual a partir de un lugar a otro, sin almacenamiento compartido, proporcionando una mayor recuperación de desastres y alta disponibilidad.
-\pause \bigskip
-\item Gestión del servidor: El Core Server proporciona un entorno mínimo para ejecutar funciones específicas de servidor. Estos roles son entonces más fáciles de mantener y gestionar y menos expuesto a los ataques. Estas funciones incluyen Active Directory y servicios relacionados, DHCP, DNS, servicios de archivos, Hyper-V, Servicios de impresión, Streaming Media Services y Web Server (IIS).
-\pause \bigskip
-\item Servicios integrados: Windows Server 2012 proporciona una plataforma unificada para la publicación web que integra IIS, ASP.NET y Windows Communication Foundation y también es compatible con SharePoint Services.
-\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{Microsoft Windows Server 2012} 
-\begin{itemize}
-\item Funcionalidades Principales 
-\pause \bigskip
-\begin{itemize}
-\item  Failover Clustering: Los administradores pueden minimizar las interrupciones de los servicios y aplicaciones mediante la creación de un entorno de servidor redundante con particiones de hardware dinámica.
-\pause \bigskip
-\item Servidor de aplicaciones: esta función de servidor proporciona un entorno integrado para implementar y ejecutar aplicaciones empresariales personalizadas creadas con Microsoft NET Framework 3.5.
-\pause \bigskip
-\item DirectAccess: Esta característica túnel seguro permite el acceso a la red desde cualquier ordenador o dispositivo. Es más rápido que las típicas conexiones VPN y ofrece fuera de la zona de acceso a los recursos compartidos de archivos, equipos en las instalaciones y otros recursos.
-
-\end{itemize}
-\end{itemize}
-
-\end{frame}
-
-
-\section{Ejemplos de Cloud}
-
-\subsection{oVirt}
-
 \begin{frame}\frametitle{oVirt}
-\begin{itemize}
-\item La plataforma de virtualización para Datacenter oVirt es un proyecto de virtualización Open Source que ofrece un sistema completo de administración de servidores virtuales, con características avanzadas como alta disponibilidad, live migration, administración de storage, system scheduler, etc.
-\pause \bigskip
-\item A través de su interfaz web es posible administrar máquinas virtuales y manejar soluciones de storage tales como NFS, iSCSI, Fibre Channel y storage local.
-\pause \bigskip
-\item Usa SPICE como visor
-\end{itemize}
+
+\end{frame}
+\begin{frame}\frametitle{DevStack}
+
 \end{frame}
 
-\subsection{Amazon EC2}
-\begin{frame}\frametitle{Amazon EC2}
-\begin{itemize}
-\item Amazon Elastic Compute Cloud
-\pause \bigskip
-\begin{itemize}
-\item Posee una interfaz de servicios web para iniciar y configurar el servicio
-\pause \bigskip
-\item Proporciona un control completo de los recursos y reduce el tiempo de arranque de sus servidores
-\pause \bigskip
-\item Permite escalar recursos rápidamente según las necesidades del usuario
-\pause \bigskip
-\item Provee herramientas de recuperación de datos y fuerte aislamiento frente a otros procesos realizados en sus máquinas.
-\pause \bigskip
-\item Este tipo de servicio sólo se paga por la capacidad utilizada.
-\pause \bigskip 
-\item Se apoya en las tecnologías de virtualización, permitiendo utilizar gran variedad de sistemas operativos a través de sus interfaces de servicios web, personalizarlos, gestionar permisos de acceso a la red y ejecutar tantos sistemas como desee.
-\end{itemize}
-\pause \bigskip
-\item TeamLab AMI (Amazon Machine Image) es su propia máquina con la plataforma TeamLab preinstalada. Se ofrece gratis como una parte del servicio Amazon EC2 que permite ejecutar una instancia (máquina virtual) en los servicios seguros de la nube de Amazon.
-\end{itemize}
+\subsection{Estado Actual}
+\begin{frame}\frametitle{¿Como se encuentra actualmente el proyecto?}
+
 \end{frame}
 
-\subsection{Google Drive}
-\begin{frame}\frametitle{Google Drive}
-\begin{itemize}
-\item Google Drive es un servicio de almacenamiento de archivos en línea
-\pause \bigskip
-\item Fue introducido por Google el 24 de abril de 2012
-\pause \bigskip
-\item Cada usuario cuenta con 5 Gigabytes de espacio gratuito para almacenar sus archivos
-\pause \bigskip
-\item Es accesible por su página web desde ordenadores y dispone de aplicaciones para iOS y Android que permiten editar documentos y hojas de cálculo.1
-\pause \bigskip
-\item Google Docs se originó de dos productos separados, Writely y Google Spreadsheets
-\pause \bigskip
-\item El acceso seguro vía SSL no está habilitado por defecto, pero existe la opción de acceder por HTTPS a Google Docs y trabajar de forma segura.
-\pause \bigskip
-\item Google Docs cambió su denominación por Google Drive el 24 de abril de 2012 Cambiando su dirección de enlace de docs.google.com por drive.google.com entre otras cosas
 
-\end{itemize}
+
+\section{Infraestructura necesaria para Virtualización}
+\subsection{?}
+\begin{frame}\frametitle{texto}
+
 \end{frame}
+\subsection{?}
+\begin{frame}\frametitle{texto}
 
-\subsection{Microsoft SkyDrive}
-\begin{frame}\frametitle{Microsoft SkyDrive}
-\begin{itemize}
-\item Microsoft SkyDrive (anteriormente Windows Live SkyDrive y Windows Live Folders)Microsoft SkyDrive (anteriormente Windows Live SkyDrive y Windows Live Folders)
-\pause \bigskip
-\begin{itemize}
-\item Es un servicio de alojamiento de archivos multiplataforma en la nube, operado por Microsoft.
-\pause \bigskip
-\item El servicio permite a los usuarios subir archivos, almacenarlos en línea y acceder a ellos desde un navegador web o su dispositivo local.
-\pause \bigskip
-\item El servicio utiliza una Microsoft account para controlar el acceso a los archivos del usuario. Los archivos que se comparten públicamente no requieren una cuenta de Microsoft account para acceder.
-\pause \bigskip
-\end{itemize}
-\item Actualmente, el servicio ofrece 7 GB de almacenamiento gratuito, con un tamaño máximo por archivo de 2 GB, si se sube a través de la aplicación para escritorio de Skydrive, o 300 MB, si se sube vía web. Se pueden subir hasta 5 archivos a la vez de manera estándar con cualquier navegador, y también se puede instalar una herramienta ActiveX que permite arrastrar un número ilimitado de archivos directamente desde el Explorador de Windows. Está disponible para Android.
-\end{itemize}
 \end{frame}
+\subsection{?}
+\begin{frame}\frametitle{texto}
 
-\subsection{Dropbox}
-\begin{frame}\frametitle{Dropbox}
-\begin{itemize}
-\item Dropbox es un servicio de alojamiento de archivos multiplataforma en la nube, operado por la compañía Dropbox.
-\pause \bigskip
-\item El servicio permite a los usuarios almacenar y sincronizar archivos en línea y entre ordenadores y compartir archivos y carpetas con otros
-\pause \bigskip
-\item Existen versiones gratuitas y de pago
-\pause \bigskip
-\item Está disponible para Android, Blackberry e IOS (Apple)
-\pause \bigskip 
-\item Dropbox es un software que enlaza todos los dispositivos mediante una sola carpeta, lo cual constituye una manera fácil de respaldar y sincronizar los archivos.
-\pause \bigskip
-\item La sincronización de Dropbox usa transferencias SSL y almacena los datos mediante el protocolo de cifrado AES-256.
-\pause \bigskip
-\item Dropbox se anuncia diciendo que ni siquiera los empleados tienen acceso a los datos guardados.
-\end{itemize}
 \end{frame}
 
 \end{document}
