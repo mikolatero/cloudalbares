@@ -15,7 +15,7 @@
 \beamer@subsectionintoc {4}{4}{Microsoft Windows Server 2012}{43}{0}{4}
 \beamer@sectionintoc {5}{Ejemplos de Cloud}{51}{0}{5}
 \beamer@subsectionintoc {5}{1}{oVirt}{51}{0}{5}
-\beamer@subsectionintoc {5}{2}{Amazon EC2}{52}{0}{5}
-\beamer@subsectionintoc {5}{3}{Google Drive}{53}{0}{5}
-\beamer@subsectionintoc {5}{4}{Microsoft SkyDrive}{54}{0}{5}
-\beamer@subsectionintoc {5}{5}{Dropbox}{55}{0}{5}
+\beamer@subsectionintoc {5}{2}{Amazon EC2}{54}{0}{5}
+\beamer@subsectionintoc {5}{3}{Google Drive}{62}{0}{5}
+\beamer@subsectionintoc {5}{4}{Microsoft SkyDrive}{69}{0}{5}
+\beamer@subsectionintoc {5}{5}{Dropbox}{74}{0}{5}

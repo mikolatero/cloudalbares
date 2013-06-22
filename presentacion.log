@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.21)  21 JUN 2013 22:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.21)  22 JUN 2013 13:53
 entering extended mode
  %&-line parsing enabled.
 **presentacion.tex
@@ -811,21 +811,27 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 15.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+
+<albares1.jpg, id=96, 133.49875pt x 200.75pt>
+File: albares1.jpg Graphic file (type jpg)
+ <use albares1.jpg>
+Overfull \vbox (1.83708pt too high) detected at line 28
+ []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 25.
+(Font)              size <5> substituted on input line 28.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./presentacion.toc)
-[2
+ <./albares1.jpg>]
+(./presentacion.toc) [2
 
 ] [3
 
@@ -849,7 +855,8 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 
 ] [13
 
-] [14
+]
+[14
 
 ] [15
 
@@ -857,8 +864,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 
 ] [17
 
-]
-[18
+] [18
 
 ] [19
 
@@ -866,20 +872,21 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 
 ] [21
 
-] <opennebulalogo.jpg, id=491, 289.08pt x 200.75pt>
+]
+<opennebulalogo.jpg, id=493, 289.08pt x 200.75pt>
 File: opennebulalogo.jpg Graphic file (type jpg)
+ <use opennebulalogo.jpg>
+LaTeX Font Info:    Try loading font information for U+msa on input line 192.
 
-<use opennebulalogo.jpg>
-LaTeX Font Info:    Try loading font information for U+msa on input line 189.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 189.
+LaTeX Font Info:    Try loading font information for U+msb on input line 192.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<openstacklogoe.jpg, id=492, 190.7125pt x 190.7125pt>
+<openstacklogoe.jpg, id=494, 190.7125pt x 190.7125pt>
 File: openstacklogoe.jpg Graphic file (type jpg)
  <use openstacklogoe.jpg>
 [22
@@ -891,10 +898,10 @@ File: openstacklogoe.jpg Graphic file (type jpg)
 
 <use openstacklogoe.jpg> [23
 
-] <rhevlogo.jpg, id=524, 281.05pt x 210.7875pt>
+] <rhevlogo.jpg, id=526, 281.05pt x 210.7875pt>
 File: rhevlogo.jpg Graphic file (type jpg)
 
-<use rhevlogo.jpg> <wserverlogo.jpg, id=525, 301.125pt x 205.76875pt>
+<use rhevlogo.jpg> <wserverlogo.jpg, id=527, 301.125pt x 205.76875pt>
 File: wserverlogo.jpg Graphic file (type jpg)
 
 <use wserverlogo.jpg> [24
@@ -968,6 +975,84 @@ File: wserverlogo.jpg Graphic file (type jpg)
 
 ] [55
 
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[62
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[63
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[64
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[65
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[66
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[67
+
+]
+Overfull \vbox (3.59247pt too high) detected at line 380
+ []
+
+[68
+
+] [69
+
+] [70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+] [80
+
 ]
 \tf@nav=\write6
 \openout6 = `presentacion.nav'.
@@ -978,29 +1063,30 @@ File: wserverlogo.jpg Graphic file (type jpg)
 \tf@snm=\write8
 \openout8 = `presentacion.snm'.
 
- (./presentacion.aux)
+
+(./presentacion.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15546 strings out of 493848
- 288799 string characters out of 1152823
+ 15601 strings out of 493848
+ 289353 string characters out of 1152823
  364719 words of memory out of 3000000
- 18276 multiletter control sequences out of 15000+50000
+ 18280 multiletter control sequences out of 15000+50000
  7986 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 49i,20n,62p,441b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,20n,62p,494b,768s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
 onts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9
 .pfb>
-Output written on presentacion.pdf (55 pages, 396769 bytes).
+Output written on presentacion.pdf (80 pages, 520833 bytes).
 PDF statistics:
- 1061 PDF objects out of 1200 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1476 PDF objects out of 1728 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
+ 312 words of extra memory for PDF output out of 10000 (max. 10000000)
 

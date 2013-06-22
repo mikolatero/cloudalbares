@@ -54,22 +54,22 @@
 \headcommand {\beamer@sectionpages {26}{50}}
 \headcommand {\beamer@subsectionpages {43}{50}}
 \headcommand {\beamer@subsectionentry {0}{5}{1}{51}{oVirt}}\headcommand {\beamer@subsectionpages {51}{50}}
-\headcommand {\slideentry {5}{1}{1}{51/51}{oVirt}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@subsectionentry {0}{5}{2}{52}{Amazon EC2}}\headcommand {\beamer@subsectionpages {51}{51}}
-\headcommand {\slideentry {5}{2}{1}{52/52}{Amazon EC2}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@subsectionentry {0}{5}{3}{53}{Google Drive}}\headcommand {\beamer@subsectionpages {52}{52}}
-\headcommand {\slideentry {5}{3}{1}{53/53}{Google Drive}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@subsectionentry {0}{5}{4}{54}{Microsoft SkyDrive}}\headcommand {\beamer@subsectionpages {53}{53}}
-\headcommand {\slideentry {5}{4}{1}{54/54}{Microsoft SkyDrive}{0}}
-\headcommand {\beamer@framepages {54}{54}}
-\headcommand {\beamer@subsectionentry {0}{5}{5}{55}{Dropbox}}\headcommand {\beamer@subsectionpages {54}{54}}
-\headcommand {\slideentry {5}{5}{1}{55/55}{Dropbox}{0}}
-\headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {1}{55}}
-\headcommand {\beamer@subsectionpages {55}{55}}
-\headcommand {\beamer@sectionpages {51}{55}}
-\headcommand {\beamer@documentpages {55}}
+\headcommand {\slideentry {5}{1}{1}{51/53}{oVirt}{0}}
+\headcommand {\beamer@framepages {51}{53}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{54}{Amazon EC2}}\headcommand {\beamer@subsectionpages {51}{53}}
+\headcommand {\slideentry {5}{2}{1}{54/61}{Amazon EC2}{0}}
+\headcommand {\beamer@framepages {54}{61}}
+\headcommand {\beamer@subsectionentry {0}{5}{3}{62}{Google Drive}}\headcommand {\beamer@subsectionpages {54}{61}}
+\headcommand {\slideentry {5}{3}{1}{62/68}{Google Drive}{0}}
+\headcommand {\beamer@framepages {62}{68}}
+\headcommand {\beamer@subsectionentry {0}{5}{4}{69}{Microsoft SkyDrive}}\headcommand {\beamer@subsectionpages {62}{68}}
+\headcommand {\slideentry {5}{4}{1}{69/73}{Microsoft SkyDrive}{0}}
+\headcommand {\beamer@framepages {69}{73}}
+\headcommand {\beamer@subsectionentry {0}{5}{5}{74}{Dropbox}}\headcommand {\beamer@subsectionpages {69}{73}}
+\headcommand {\slideentry {5}{5}{1}{74/80}{Dropbox}{0}}
+\headcommand {\beamer@framepages {74}{80}}
+\headcommand {\beamer@partpages {1}{80}}
+\headcommand {\beamer@subsectionpages {74}{80}}
+\headcommand {\beamer@sectionpages {51}{80}}
+\headcommand {\beamer@documentpages {80}}
 \headcommand {\def \inserttotalframenumber {20}}

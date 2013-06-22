@@ -5,3 +5,13 @@ RedHat Enterprise Virtualization-->http://www.josemariagonzalez.es/2010/05/25/in
 http://noticias.lainformacion.com/economia-negocios-y-finanzas/nuevo-servicio/red-hat-lanza-red-hat-enterprise-virtualization-3-2_toQDu3s8rLpdJKLeY519h7/
 
 Windows server 2012--> http://dono.discapnet.es/node/1190
+
+ovirt-->http://www.ipworkers.com/index.php/productos/virtualizacion/47-ovirt
+
+amazon ec2-->http://es.wikipedia.org/wiki/Amazon_EC2
+
+google drive-->http://es.wikipedia.org/wiki/Google_Drive
+
+windows skydrive-->https://es.wikipedia.org/wiki/SkyDrive
+
+dropbox-->http://es.wikipedia.org/wiki/Dropbox
