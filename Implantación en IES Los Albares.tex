@@ -194,8 +194,14 @@ por nodo.
  
 \end{frame}
 \subsection{Red}
-\begin{frame}\frametitle{texto}
-
+\begin{frame}\frametitle{Elementos de Red}
+\begin{itemize}
+\item En nuestro caso no tenemos cableado de fibra optica, en su lugar tendremos cableado CAT6.
+\pause \bigskip
+\item Tambien dispondremos de 2 switchs de 1Gbps
+\pause \bigskip
+\item Estos switchs tambien tienen la tecnologia para poder realizar distintas vlan, trabajar con JumboFrames y realizar Bonding entre distintas interfaces
+\end{itemize}
 \end{frame}
 \subsection{Energia}
 \begin{frame}\frametitle{Sistema de Alimentacion Ininterrumpida}
@@ -207,7 +213,32 @@ dad dedicados al proyecto.
 \end{itemize}
 \end{frame}
 \section{Conetividad de los clientes}
-\begin{frame}\frametitle{Como conectar con una maquina virtual}
+\begin{frame}\frametitle{Como se conectan los clientes con una maquina virtual}
+\begin{itemize}
+\item Cada una de las plataformas, tiene varias opciones para cuando un cliente quiere conectarse a la maquina virtual, siendo para cada sistema los siguientes protocolos o herramientas.
+\pause \bigskip
+\begin{itemize}
+\item OpenNebula -- VNC
+\item OpenStack -- VNC,SPICE
+\item oVirt -- SPICE
+\item Windows Server 2012 -- RDP
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+\section{Conclusion}
+\begin{frame}\frametitle{Conclusion}
+Este proyecto es ambicioso y tiene muy buen futuro, pero aun falta mucho desarrollo por parte de los desarrolladores de estos sistemas.
+
+Es muy bueno que existan este tipo de proyectos ya que el mundo de la informatica esta creciendo a pasos agigantados y este proyecto que hace muy poco tiempo nacio ahora esta creciendo a un ritmo muy rapido pero aun queda una fase de maduracion del producto ya que aun hay muchos fallos en opciones basicas de funcionamiento.
+
+Espero que con este proyecto sea un poco mas facil ver en que consisten estos sistemas de virtualizacion y ver un poco los distintos sistemas que hay y los errores que han ido surgiendo.
+
+Gracias por haber leido este documento!! aunque esta incompleto ya que con este tema tendriamos para hacer varias presentaciones. Este es solo el principio.
+
+
+PD. Este documentos no se hubiera podido hacer sin TiRoRi.
+
 
 
 \end{frame}
