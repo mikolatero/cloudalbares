@@ -7,13 +7,14 @@
 \usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
 
+
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
 
 \begin{document}
 
 \title[Virtualización en la educacion \ldots ]{Plataformas de virtualizacion para equipos en centros educativos}  
 \author{Francisco José Marin Cano \\ José Maria Alcaraz Marin}
-\institute[D.S.Y.C]{%
+\institute[D.S.Y.C]{
   Departamento Técnico de Sistemas y Comunicaciones\\
   Cieza (Murcia)}
 \date{Copyleft \copyright{} 2013. Reproducción permitida bajo los \\
@@ -36,39 +37,57 @@
 
 \subsection{Temporalizacion}
 
-\begin{frame}\frametitle{Linea de Tiempo} 
+\begin{frame}\frametitle{Linea de Tiempo}
+
+
+\end{frame}
+
+
+\subsection{Sistemas de virtualizacion utilizados}
+
+\begin{frame}\frametitle{OpenNebula (Octubre 2011 - Noviembre 2011)} 
 \begin{itemize}
-
-\item 
+\item El primer sistema que planteamos en utilizar fue OpenNebula, ya que este proyecto era muy ambicioso y prometia lo que se necesitaba.
 \pause \bigskip
-
-\item 
+\item Instalamos una de las Primeras versiones, tras haber estado casi un mes peleandonos para poder configurar correctamente OpenNebula.
 \pause \bigskip
-
-\item 
-
+\item Abortamos OpenNebula, ya que estaba en una fase temprana de desarrollo y aun faltaba mucho para que funcionara correctamente.
 \end{itemize}
 
-\end{frame}
-
-
-\subsection{Sistemas utilizados}
-
-\begin{frame}\frametitle{OpenNebula} 
-
-
 
 \end{frame}
-\begin{frame}\frametitle{OpenStack}
-
+\begin{frame}\frametitle{OpenStack (diciembre 2011 - Abril 2013 )}
+\begin{itemize}
+\item Nos costo mucho elegir despues de descartar OpenNebula, ya que habian muchos Sistemas de Virtualizacion, pero todos ellos estaban en un punto de Desarrollo muy temprano, ya que habian pocas funcionalidades y pocas de ellas funcionaban correctamente.
+\pause \bigskip
+\item Nos decidimos por OpenStack ya que estaba respaldada por un gran equipo de desarrolladores y detras estaba la NASA. Por lo que la parte de desarrollo seria mejor y mas rapida.
+\pause \bigskip
+\item Tambien ya que en el proyecto estaban varios centros, ellos tambien optaron por esta opcion con mejor o peor resultado.
+\pause \bigskip
+\item Como OpenStack esta en constante desarrollo optamos por dejar parado el proyecto hasta que saliera una version algo estable ya que cada poco tiempo cambian paquetes, configuraciones y demas, es decir lo que funcionaba un dia a la semana siguiente dejaba de funcionar y habia otra funcionalidad nueva.
+\pause \bigskip
+\item Por lo que este proyecto lo hemos dejado un poco en pausa hasta que salga una version estable y funcional.
+\end{itemize}
 \end{frame}
-\begin{frame}\frametitle{StackOps}
-
+\begin{frame}\frametitle{StackOps (Marzo 2012 - Abril 2012)}
+\begin{itemize}
+\item Decidimos probar StackOps porque es una version de OpenStack pero con la personalizacion que introducen la gente de Ubuntu.
+\pause \bigskip
+\item Este sistema viene todo montado solo hace falta bajarse la iso e instalarla. Pero la configuracion es  Cero no deja modificar nada
+\pause \bigskip
+\item Lo probamos para ver como funcionaria un Sistema de Virtualizacion, aun asi seguian habiendo fallos en la interface visual y varios problemas que tambien estaban en OpenStack( ya que StackOps es un fork de OpenStack)
+\end{itemize}
 \end{frame}
-\begin{frame}\frametitle{oVirt}
-
+\begin{frame}\frametitle{oVirt (Abril 2013 - Junio 2013}
+\begin{itemize}
+\item Es el ultimo que hemos estado probando y la verdad es que funciona bastante bien, eso si cuando funciona.
+\pause \bigskip
+\item Esta basado en RedHat por lo que en vez de instalar como para todos los anteriores Debian en este tubimos que instalar Feadora, aunque valdria cualquier distribucion basada en RedHat.
+\pause \bigskip
+\item 
+\end{itemize}
 \end{frame}
-\begin{frame}\frametitle{DevStack}
+\begin{frame}\frametitle{DevStack (Junio 2013 - ...)}
 
 \end{frame}
 
