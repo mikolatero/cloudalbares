@@ -15,3 +15,5 @@ google drive-->http://es.wikipedia.org/wiki/Google_Drive
 windows skydrive-->https://es.wikipedia.org/wiki/SkyDrive
 
 dropbox-->http://es.wikipedia.org/wiki/Dropbox
+
+qnap--> http://www.qnap.com/es/?lang=es&sn=413&c=295&sc=742&t=746&n=3578
