@@ -84,32 +84,111 @@
 \pause \bigskip
 \item Esta basado en RedHat por lo que en vez de instalar como para todos los anteriores Debian en este tubimos que instalar Feadora, aunque valdria cualquier distribucion basada en RedHat.
 \pause \bigskip
-\item 
+\item El tema de configuracion es muy sencillo comparandolo con el de OpenStack.
+\pause \bigskip
+\item Una vez instalado y configurados los nodos de almacenamiento, hicimos una prueba intentando poner en funcionamiento varias maquinas virtuales Windows7
+\pause \bigskip
+\item Hasta aqui bien, el problema vino al apagar los nodos y el principal, cuando volvimos a arrancar he intentar iniciar las maquinas.
+\pause \bigskip
+\item oVirt nos decia en su interface web que el nodo de almacenamiento estaba bloqueado, tras varias pruebas e investigaciones llegamos a la conclusion que era un fallo de la plataforma y no lo habian solucionado todavia 
 \end{itemize}
 \end{frame}
 \begin{frame}\frametitle{DevStack (Junio 2013 - ...)}
+\begin{itemize}
+\item Aunque conocimos de su existencia en los comienzos del proyecto, Ha sido ahora cuando lo hemos utilizado y nos hemos dado cuenta que falla tambien.
+\pause \bigskip
+\item DevStack es otro fork de OpenStack y lo que han conseguido esta gente es hacer el proceso de instalacion de OpenStack mas sencillo.
+\pause \bigskip
+\item Mediante su repositorio en github y configurando un par de scripts y completando unos ficheros de configuracion, puedes instalar tu Cloud
+\pause \bigskip
+\item Este es el ultimo que hemos probado y la verdad es que te ahorra muchisimo trabajo de configuracion con los scripts que incorpora.
+\pause \bigskip
+\item Lo instalamos correctamente e hicimos pruebas y hasta aqui todo bien, incluso tubimos arriba casi 20 maquinas virtuales, pero cuando reiniciamos el equipo donde instalamos DevStack dejo de funcionar.
 
+\end{itemize}
 \end{frame}
 
 \subsection{Estado Actual}
 \begin{frame}\frametitle{¿Como se encuentra actualmente el proyecto?}
-
+\begin{itemize}
+\item El estado actual del proyecto esta un poco en el limbo ya que entre que no le podemos echar mucho tiempo ya que hasta ahora estabamos en practicas los horarios eran inconpatibles, y los problemas derivados del desarrollo, hasta que no se solucionen pues no se podra avanzar sobre este tema.
+\pause \bigskip
+\item Esperamos que muchos de los fallos que habian, se solucionen con las siguientes actualizaciones y con esto poder empezar la puesta en marcha del proyecto ya que es un proyecto ambicioso pero tambien esta en fase muy temprana de desarrollo por lo que habra que esperar un tiempo hasta que estas plataformas esten un poco mas consolidadas y fiables frente a errores comunes que son los que se dan actualmente.
+\end{itemize}
 \end{frame}
 
 
 
 \section{Infraestructura necesaria para Virtualización}
-\subsection{?}
+\subsection{Computacion}
+\begin{frame}\frametitle{Nodo Controlador}
+\begin{itemize}
+\item Supermicro-1012C-MRF Este equipo es el encargado de gestionar y organizar todo el cloud, es el que precisa una
+mayor configuración del software pero a su vez no requiere unas prestaciones elevadas.
+Se ha optado por un servidor de una unidad de armario bastante convencional, en el que
+se configurarán los dos discos duros en modo RAID 1, para guardar los datos replicados en
+previsión de futuros fallos de disco.
+\pause \bigskip
+\begin{itemize}
+\item Chasis SC512F-350. Altura: 1U, anchura: 19", profundidad: 369 mm.
+\item Placa base Supermicro H8SCM-F.
+\item Fuente de alimentación de 350W (80+ Gold).
+\item 1 procesador AMD 4226 de 6 cores a 2700 MHz.
+\item 4 GB de RAM DDR3/1333 ECC registrada
+\item Dos interfaces de red Gigabit integradas Intel 82574L
+\item Controladora Raid LSI 3 Ware 9650 SE ? 2LP de 128Mb PCI-E Raid 0,1 hardware.
+\item 2 Discos duros internos de 500 GB SATA Seagate Constellation a 7200 rpm, 64MB de ca-
+ché e interfaz de 6G/s.
+\item Interfaz de gestión IPMI 2.0
+
+\end{itemize}
+
+\end{itemize}
+\end{frame}
+\begin{frame}\frametitle{Nodo de Computacion (x4)}
+\begin{itemize}
+\item Supermicro-2022TG-H6RF Este equipo realmente son 4 equipos en 1, que comparten un mismo chasis y 2 fuentes de
+alimentación. Los 4 nodos de este equipo son totalmente independientes y cualquier fallo
+en uno de ellos no afecta al funcionamiento de los demás. Estos 4 nodos son los equipos que realmente van a soportar la mayor parte del trabajo del
+cloud, ya que en ellos se ejecutan todas las instancias del cloud (máquinas virtuales)
+\pause \bigskip
+\begin{itemize}
+\item Chasis 827HQ-R1620B. Altura: 2U, anchura: 19", profundidad: 724 mm.
+\item 12 bahías de 3.5" para discos duros extraíbles en caliente.
+\item 4 placas base Supermicro H8DGT-HLF de doble socket AMD G34 y chipset AMD SR5690 +
+SP5100.
+\item 2 fuentes de alimentación redundantes de 1620W (80+ Platinum).
+\item 2 procesadores AMD 6238 de 12 cores a 2600 MHz o AMD 6220 de 8 cores a 3000 MHz
+por nodo.
+\item 32 ó 64 GiB de RAM 1333 ECC registrada por nodo.
+\item Dos interfaces de red Gigabit integradas Intel 82576 en cada nodo.
+\item 1 tarjetas de red PCI-E de doble puerto Gigabit por nodo.
+\item 2 Discos duros 350 GB SAS Seagate Cheetah a 15000 rpm, 16MB de caché e interfaz de
+6G/s por nodo.
+\item 1 interfaz de gestión IPMI 2.0 por nodo.
+
+
+\end{itemize}
+
+
+\end{itemize}
+\end{frame}
+\subsection{Almacenamiento}
 \begin{frame}\frametitle{texto}
 
 \end{frame}
-\subsection{?}
+\subsection{Red}
 \begin{frame}\frametitle{texto}
 
 \end{frame}
-\subsection{?}
-\begin{frame}\frametitle{texto}
+\subsection{Energia}
+\begin{frame}\frametitle{Sistema de Alimentacion Ininterrumpida}
+\begin{itemize}
+\item Para la infraestructura que se está utilizando se ha optado por SAI de entre 3000 VA y 4000 VA para soportar la carga de los distintos servidores y equipos de conectivi-
+dad dedicados al proyecto.
 
+
+\end{itemize}
 \end{frame}
 
 \end{document}
