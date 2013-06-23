@@ -71,15 +71,19 @@
 \item Por lo que este proyecto lo hemos dejado un poco en pausa hasta que salga una version estable y funcional.
 \end{itemize}
 \end{frame}
+
+
 \begin{frame}\frametitle{StackOps (Marzo 2012 - Abril 2012)}
 \begin{itemize}
-\item Decidimos probar StackOps porque es una version de OpenStack pero con la personalizacion que introducen la gente de Ubuntu.
+\item Decidimos probar StackOps porque decia que era version de OpenStack con una facil configuracion y un rapido despliege
 \pause \bigskip
-\item Este sistema viene todo montado solo hace falta bajarse la iso e instalarla. Pero la configuracion es  Cero no deja modificar nada
+\item Este sistema operativo se basa en una configuracion 'on-live' que te genera la web de stackops con un asistente paso a paso para la configuracion de openstack. Una vez instalado el SO, te pide que vayas a una pagina web y tras un pequeño registro de usuario, te muestra el asistente para poder configurar al gusto el sistema.
 \pause \bigskip
-\item Lo probamos para ver como funcionaria un Sistema de Virtualizacion, aun asi seguian habiendo fallos en la interface visual y varios problemas que tambien estaban en OpenStack( ya que StackOps es un fork de OpenStack)
+\item Lo probamos para ver como funcionaria OpenStack bien montado, aun asi seguian habiendo fallos en la interface visual y varios problemas que tambien estaban en OpenStack.
 \end{itemize}
 \end{frame}
+
+
 \begin{frame}\frametitle{oVirt (Abril 2013 - Junio 2013}
 \begin{itemize}
 \item Es el ultimo que hemos estado probando y la verdad es que funciona bastante bien, eso si cuando funciona.
@@ -89,23 +93,29 @@
 \item El tema de configuracion es muy sencillo comparandolo con el de OpenStack.
 \pause \bigskip
 \item Una vez instalado y configurados los nodos de almacenamiento, hicimos una prueba intentando poner en funcionamiento varias maquinas virtuales Windows7
-\pause \bigskip
-\item Hasta aqui bien, el problema vino al apagar los nodos y el principal, cuando volvimos a arrancar he intentar iniciar las maquinas.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{oVirt (Abril 2013 - Junio 2013}
+\begin{itemize}
+\item Hasta aqui bien, el problema vino al apagar los nodos y el controlador. Cuando volvimos a arrancar he intentar iniciar las maquinas, el almacenamiento no se activaba correctamente impidiendo acceder a los datos de las maquinas virtuales.
 \pause \bigskip
 \item oVirt nos decia en su interface web que el nodo de almacenamiento estaba bloqueado, tras varias pruebas e investigaciones llegamos a la conclusion que era un fallo de la plataforma y no lo habian solucionado todavia 
 \end{itemize}
 \end{frame}
+
+
 \begin{frame}\frametitle{DevStack (Junio 2013 - ...)}
 \begin{itemize}
-\item Aunque conocimos de su existencia en los comienzos del proyecto, Ha sido ahora cuando lo hemos utilizado y nos hemos dado cuenta que falla tambien.
+\item Aunque conocimos de su existencia en los comienzos del proyecto, Ha sido ahora cuando lo hemos utilizado y nos hemos dado cuenta de que tambien falla.
 \pause \bigskip
-\item DevStack es otro fork de OpenStack y lo que han conseguido esta gente es hacer el proceso de instalacion de OpenStack mas sencillo.
+\item DevStack es un script de facil instalacion de OpenStack. Se puede usar sobre Ubuntu 12.04 y Fedora 16 (o posteriores)
 \pause \bigskip
-\item Mediante su repositorio en github y configurando un par de scripts y completando unos ficheros de configuracion, puedes instalar tu Cloud
+\item Tras clonar su repositorio de GitHub donde se encuentra su script y configurar un par de ficheros de ajustes, puedes instalar OpenStack.
 \pause \bigskip
 \item Este es el ultimo que hemos probado y la verdad es que te ahorra muchisimo trabajo de configuracion con los scripts que incorpora.
 \pause \bigskip
-\item Lo instalamos correctamente e hicimos pruebas y hasta aqui todo bien, incluso tubimos arriba casi 20 maquinas virtuales, pero cuando reiniciamos el equipo donde instalamos DevStack dejo de funcionar.
+\item Tras una correcta instalacion, levantamos 20 maquinas para probar que tal funcionaba. Las creaba, las eliminaba correctamente... pero a la hora de reiniciar... dejó de funcionar.
 
 \end{itemize}
 \end{frame}
